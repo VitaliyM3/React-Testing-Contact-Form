@@ -26,7 +26,9 @@ test("div APP renders correctly", ()=> {
 });
 
 //3.
-
+test("form renders correclty", ()=> {
+  render(<label htmlFor="lastName">Last Name*</label>);
+});
 
 //4.
 
